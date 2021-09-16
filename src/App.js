@@ -18,13 +18,13 @@ class App extends Component {
         </p>        
         <h2>Startups I managed</h2>
         <p>
-          <a target="_blank" href="http://bonomi.io/"><img src="/bonomi.svg" width="250"/></a>
-          <a target="_blank" href="http://mietwise.com/"><img src="/mietwise.png"/></a>
+          <a target="_blank" rel="noopener noreferrer" href="http://bonomi.io/"><img alt="bonomi" src="/bonomi.svg" width="250"/></a>
+          <a target="_blank" rel="noopener noreferrer" href="http://mietwise.com/"><img alt="mietwise" src="/mietwise.png"/></a>
         </p>
         <h2>Companies I worked for</h2>
         <p>
-          <img src="/skyscanner.png"/><img src="/transferwise.png"/>
-          <img src="/tesco.png"/><img src="/morganstanley.png"/>
+          <img alt="skyscanner" src="/skyscanner.png"/><img alt="transferwise" src="/transferwise.png"/>
+          <img alt="tesco" src="/tesco.png"/><img alt="morganstanley" src="/morganstanley.png"/>
         </p>
       </div>
     )
